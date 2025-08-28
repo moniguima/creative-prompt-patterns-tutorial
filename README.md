@@ -26,7 +26,7 @@ This repository contains **5 interactive Jupyter notebooks** that teach fundamen
 | **04-Template-Structure** | Consistent formatting | Galactic Bureaucracy | Standardized response frameworks |
 | **05-Iterative-Refinement** | Progressive improvement | Dream Architecture | Feedback-driven optimization |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 ```bash
@@ -95,7 +95,7 @@ openai>=1.0.0          # For API integration examples
 anthropic>=0.3.0       # For Claude API examples
 ```
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 prompt-patterns-interactive-notebooks/
@@ -129,7 +129,7 @@ prompt-patterns-interactive-notebooks/
 - **Jupyter notebook experience** (running cells, markdown)
 - **No prior prompt engineering knowledge required**
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions that enhance the educational value! 
 
