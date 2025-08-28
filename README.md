@@ -34,23 +34,6 @@ Python 3.8+
 Jupyter Notebook or JupyterLab
 ```
 
-### Installation
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/prompt-patterns-interactive-notebooks.git
-cd prompt-patterns-interactive-notebooks
-
-# Create virtual environment
-python -m venv prompt-env
-source prompt-env/bin/activate  # On Windows: prompt-env\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch Jupyter
-jupyter notebook
-```
-
 ### Recommended Learning Path
 1. Start with **01-Chain-of-Thought** for foundational reasoning concepts
 2. Progress through notebooks **02-05** in order
