@@ -20,11 +20,11 @@ This repository contains **5 interactive Jupyter notebooks** that teach fundamen
 
 | Notebook | Pattern | Creative Example | Learning Focus |
 |----------|---------|------------------|----------------|
-| **01-Chain-of-Thought** | Step-by-step reasoning | AI Detective Agency | Logical problem decomposition |
-| **02-Few-Shot-Learning** | Learning from examples | Alien Communication | Pattern recognition from minimal data |
-| **03-Role-Playing-Persona** | Perspective adoption | Marine Biologist + Time Travelers | Expert knowledge application |
-| **04-Template-Structure** | Consistent formatting | Galactic Bureaucracy | Standardized response frameworks |
-| **05-Iterative-Refinement** | Progressive improvement | Dream Architecture | Feedback-driven optimization |
+| **Role-Playing-Persona** | Perspective adoption | Marine Biologist + Time Travelers | Expert knowledge application |
+| **Template-Structure** | Consistent formatting | Galactic Bureaucracy | Standardized response frameworks |
+| **Few-Shot-Learning** | Learning from examples | Alien Communication | Pattern recognition from minimal data |
+| **Chain-of-Thought** | Step-by-step reasoning | AI Detective Agency | Logical problem decomposition |
+| **Iterative-Refinement** | Progressive improvement | Dream Architecture | Feedback-driven optimization |
 
 ## Quick Start
 
@@ -35,8 +35,8 @@ Jupyter Notebook or JupyterLab
 ```
 
 ### Recommended Learning Path
-1. Start with **01-Chain-of-Thought** for foundational reasoning concepts
-2. Progress through notebooks **02-05** in order
+1. Start with **Role-Playing-Persona** 
+2. Progress through notebooks in order
 3. Each notebook takes approximately **45-60 minutes** to complete
 4. Complete all exercises for maximum learning benefit
 
@@ -83,15 +83,14 @@ anthropic>=0.3.0       # For Claude API examples
 ```
 prompt-patterns-interactive-notebooks/
 ├── notebooks/
-│   ├── 01-chain-of-thought-reasoning.ipynb
-│   ├── 02-few-shot-learning.ipynb  
-│   ├── 03-role-playing-persona.ipynb
-│   ├── 04-template-structure.ipynb
-│   └── 05-iterative-refinement.ipynb
+│   ├── role-playing-persona.ipynb
+│   ├── template-structure.ipynb 
+│   ├── few-shot-learning.ipynb 
+│   ├── chain-of-thought-reasoning.ipynb
+│   └── iterative-refinement.ipynb
 ├── assets/
 │   ├── images/          # Diagrams and illustrations
 │   └── data/           # Sample datasets for exercises
-├── solutions/          # Completed exercise solutions
 ├── references/         # Academic papers and additional reading
 ├── requirements.txt
 ├── environment.yml     # Conda environment file
@@ -159,10 +158,17 @@ Notebooks are designed for **cumulative learning**, where skills build naturally
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-
-- **Anthropic** for advancing prompt engineering research
-- **OpenAI** for pioneering accessible AI interaction
-- **Jupyter Project** for creating excellent educational tools
+### AI Language Models & Providers:
+- **Anthropic** for advancing prompt engineering research and Constitutional AI methodologies
+- **OpenAI** for pioneering accessible AI interaction and democratizing large language model access
+- **Google (Gemini)** for advancing multimodal AI capabilities and integrating AI into educational workflows
+- **Mistral AI** for developing efficient, open-source AI models and advancing European AI innovation
+- **Microsoft (GitHub Copilot)** for revolutionizing AI-assisted development and bringing AI tools to millions of developers
+### Development Frameworks & Tools:
+- **LangChain** for providing comprehensive frameworks that simplify complex AI application development and prompt orchestration
+### Educational Platforms:
+- **Jupyter Project** for creating excellent educational tools that make interactive learning accessible
+### Community:
 - **Contributors** who help improve these learning materials
 
 ## Contact
