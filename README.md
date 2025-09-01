@@ -8,7 +8,7 @@
 
 ## What You'll Learn
 
-This repository contains **5 interactive Jupyter notebooks** that teach fundamental prompt engineering patterns through creative, memorable examples. Instead of typical business scenarios, you'll explore prompts through:
+This repository contains **interactive Jupyter notebooks** that teach fundamental prompt engineering patterns through creative, memorable examples. Instead of typical business scenarios, you'll explore prompts through:
 
 - **Marine biologists analyzing social media ecosystems**
 - **Time-traveling consultants solving modern problems**
@@ -25,6 +25,11 @@ This repository contains **5 interactive Jupyter notebooks** that teach fundamen
 | **Few-Shot-Learning** | Learning from examples | Alien Communication | Pattern recognition from minimal data |
 | **Chain-of-Thought** | Step-by-step reasoning | AI Detective Agency | Logical problem decomposition |
 | **Iterative-Refinement** | Progressive improvement | Dream Architecture | Feedback-driven optimization |
+| **Recipe**                | Step-by-step execution | Composing a Symphony Based on DNA Sequences           | Structured creativity and reproducibility |
+| **Alternative-Approaches**  | Multi-perspective exploration | Solving Unsolved Scientific Problems (e.g., Dark Matter, Abiogenesis) | Critical thinking and interdisciplinary synthesis |
+| **Question-Refinement**    | Precision and clarity  | Refining a Vague Research Hypothesis in Climate Science | Clarity, specificity, and actionability |
+| **Gameplay**               | Interactive exploration| Build-a-World: Atlantis Mystery                       | Collaborative problem-solving and creativity |
+
 
 ## Quick Start
 
@@ -83,11 +88,11 @@ anthropic>=0.3.0       # For Claude API examples
 ```
 prompt-patterns-interactive-notebooks/
 ├── notebooks/
-│   ├── role-playing-persona.ipynb
-│   ├── template-structure.ipynb 
-│   ├── few-shot-learning.ipynb 
-│   ├── chain-of-thought-reasoning.ipynb
-│   └── iterative-refinement.ipynb
+│   ├── Role-Playing-Persona.ipynb
+│   ├── Template-Structure.ipynb 
+│   ├── Few-Shot-Learning.ipynb 
+│   ├── Chain-of-Thought-Reasoning.ipynb
+│   └── Iterative-Refinement.ipynb
 ├── assets/
 │   ├── images/          # Diagrams and illustrations
 │   └── data/           # Sample datasets for exercises
